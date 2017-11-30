@@ -7,7 +7,6 @@ use yii\web\AssetBundle;
 class SupersizedSlideshowAsset extends AssetBundle {
 
     public $sourcePath = '@vendor/xj/yii2-supersized-widget/assets/slideshow';
-    public $basePath = '@webroot/assets';
     public $css = [
         'css/supersized.css',
         'theme/supersized.shutter.css',
